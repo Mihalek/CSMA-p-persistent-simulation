@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Zdarzenia Czasowe">
+      <UniqueIdentifier>{2577c1b8-20b0-4398-8208-f8ad76ad6c75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zdarzenia Warunkowe">
+      <UniqueIdentifier>{e3020ab1-13ba-4ea9-b4f0-c7428b6d60ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="nadajnik.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="odbiornik.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pakiet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kanaltransmisyjny.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kolizja.h">
+      <Filter>Zdarzenia Warunkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="retransmisjapakietu.h">
+      <Filter>Zdarzenia Warunkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="wyslaniepakietu.h">
+      <Filter>Zdarzenia Warunkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="wyslanieack.h">
+      <Filter>Zdarzenia Warunkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="utworzeniepakietu.h">
+      <Filter>Zdarzenia Czasowe</Filter>
+    </ClInclude>
+    <ClInclude Include="odebraniepakietu.h">
+      <Filter>Zdarzenia Czasowe</Filter>
+    </ClInclude>
+    <ClInclude Include="symulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sprawdzkanal.h">
+      <Filter>Zdarzenia Czasowe</Filter>
+    </ClInclude>
+    <ClInclude Include="starttransmisji.h">
+      <Filter>Zdarzenia Czasowe</Filter>
+    </ClInclude>
+    <ClInclude Include="dostarczenieack.h">
+      <Filter>Zdarzenia Czasowe</Filter>
+    </ClInclude>
+    <ClInclude Include="system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="nadajnik.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="odbiornik.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pakiet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kanaltransmisyjny.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kolizja.cpp">
+      <Filter>Zdarzenia Warunkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="retransmisjapakietu.cpp">
+      <Filter>Zdarzenia Warunkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="wyslaniepakietu.cpp">
+      <Filter>Zdarzenia Warunkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="wyslanieack.cpp">
+      <Filter>Zdarzenia Warunkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="utworzeniepakietu.cpp">
+      <Filter>Zdarzenia Czasowe</Filter>
+    </ClCompile>
+    <ClCompile Include="odebraniepakietu.cpp">
+      <Filter>Zdarzenia Czasowe</Filter>
+    </ClCompile>
+    <ClCompile Include="symulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sprawdzkanal.cpp">
+      <Filter>Zdarzenia Czasowe</Filter>
+    </ClCompile>
+    <ClCompile Include="starttransmisji.cpp">
+      <Filter>Zdarzenia Czasowe</Filter>
+    </ClCompile>
+    <ClCompile Include="dostarczenieack.cpp">
+      <Filter>Zdarzenia Czasowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
